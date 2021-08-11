@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include header.html %}
+  <body>
+    {% include navbar.html %}
+    <div class="container">
+
+      {% if page.skipheading %}
+
+      {% else %}
+      <div class="row">
+        <div class="col-md-10">
+          <h1 class="my-4">
+            {% if page.longtitle %}
+            {{ page.longtitle }}
+            {% else %}
+            {{ page.title }}
+            {% endif %}
+          </h1>
+        </div>
+        <div class="col-md-2 d-none d-md-block">
+          <img src="{{ site.baseurl }}/img/gindok_logo.png" style="width:100%">
+        </div>
+      </div>
+      {% endif %}
+
+
+      {{ content }}
+    </div>
+    <script src="{{ site.baseurl }}/js/jquery-3.3.1.min.js"></script>
+    <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+  </body>
+</html>

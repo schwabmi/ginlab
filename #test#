@@ -1,0 +1,110 @@
+GEThttp://127.0.0.1:4000/favicon.ico
+[HTTP/1.1 404 Not Found  0ms]
+
+values 1 
+Object { symbol: "Literatur", date: Date Tue Jan 01 1985 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 170 }
+keywords_alternative.js:151:17
+values2 
+Object { symbol: "Literatur", date: Date Wed Jan 01 1986 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 168 }
+keywords_alternative.js:152:17
+value3 
+Object { symbol: "Literatur", date: Date Tue Jan 01 1985 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 170 }
+keywords_alternative.js:153:17
+values 1 
+Object { symbol: "Literatur", date: Date Tue Jan 01 1985 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 170 }
+keywords_alternative.js:151:17
+values2 
+Object { symbol: "Literatur", date: Date Wed Jan 01 1986 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 168 }
+keywords_alternative.js:152:17
+value3 
+Object { symbol: "Literatur", date: Date Wed Jan 01 1986 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 168 }
+keywords_alternative.js:153:17
+values 2 
+Object { symbol: "Literatur", date: Date Wed Jan 01 1986 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 168 }
+keywords_alternative.js:151:17
+values2 
+Object { symbol: "Literatur", date: Date Thu Jan 01 1987 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 153 }
+keywords_alternative.js:152:17
+value3 
+Object { symbol: "Literatur", date: Date Wed Jan 01 1986 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 168 }
+keywords_alternative.js:153:17
+values 2 
+Object { symbol: "Literatur", date: Date Wed Jan 01 1986 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 168 }
+keywords_alternative.js:151:17
+values2 
+Object { symbol: "Literatur", date: Date Thu Jan 01 1987 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 153 }
+keywords_alternative.js:152:17
+value3 
+Object { symbol: "Literatur", date: Date Wed Jan 01 1986 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 168 }
+keywords_alternative.js:153:17
+values 2 
+Object { symbol: "Literatur", date: Date Wed Jan 01 1986 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 168 }
+keywords_alternative.js:151:17
+values2 
+Object { symbol: "Literatur", date: Date Thu Jan 01 1987 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 153 }
+keywords_alternative.js:152:17
+value3 
+Object { symbol: "Literatur", date: Date Thu Jan 01 1987 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 153 }
+keywords_alternative.js:153:17
+values 2 
+Object { symbol: "Literatur", date: Date Wed Jan 01 1986 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 168 }
+keywords_alternative.js:151:17
+values2 
+Object { symbol: "Literatur", date: Date Thu Jan 01 1987 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 153 }
+keywords_alternative.js:152:17
+value3 
+Object { symbol: "Literatur", date: Date Thu Jan 01 1987 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 153 }
+keywords_alternative.js:153:17
+values 3 
+Object { symbol: "Literatur", date: Date Thu Jan 01 1987 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 153 }
+keywords_alternative.js:151:17
+values2 
+Object { symbol: "Literatur", date: Date Fri Jan 01 1988 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 173 }
+keywords_alternative.js:152:17
+value3 
+Object { symbol: "Literatur", date: Date Thu Jan 01 1987 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 153 }
+keywords_alternative.js:153:17
+values 3 
+Object { symbol: "Literatur", date: Date Thu Jan 01 1987 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 153 }
+keywords_alternative.js:151:17
+values2 
+Object { symbol: "Literatur", date: Date Fri Jan 01 1988 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 173 }
+keywords_alternative.js:152:17
+value3 
+Object { symbol: "Literatur", date: Date Thu Jan 01 1987 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 153 }
+keywords_alternative.js:153:17
+values 2 
+Object { symbol: "Literatur", date: Date Wed Jan 01 1986 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 168 }
+keywords_alternative.js:151:17
+values2 
+Object { symbol: "Literatur", date: Date Thu Jan 01 1987 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 153 }
+keywords_alternative.js:152:17
+value3 
+Object { symbol: "Literatur", date: Date Thu Jan 01 1987 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 153 }
+keywords_alternative.js:153:17
+values 2 
+Object { symbol: "Literatur", date: Date Wed Jan 01 1986 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 168 }
+keywords_alternative.js:151:17
+values2 
+Object { symbol: "Literatur", date: Date Thu Jan 01 1987 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 153 }
+keywords_alternative.js:152:17
+value3 
+Object { symbol: "Literatur", date: Date Wed Jan 01 1986 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 168 }
+keywords_alternative.js:153:17
+values 1 
+Object { symbol: "Literatur", date: Date Tue Jan 01 1985 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 170 }
+​
+date: Date Tue Jan 01 1985 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit)
+​
+price: 170
+​
+symbol: "Literatur"
+​
+<prototype>: Object { … }
+keywords_alternative.js:151:17
+values2 
+Object { symbol: "Literatur", date: Date Wed Jan 01 1986 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 168 }
+keywords_alternative.js:152:17
+value3 
+Object { symbol: "Literatur", date: Date Tue Jan 01 1985 00:00:00 GMT+0100 (Mitteleuropäische Normalzeit), price: 170 }
+keywords_alternative.js:153:17

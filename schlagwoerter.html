@@ -1,0 +1,45 @@
+---
+layout: default
+title: Schlagwörter
+longtitle: Schlagwort-Analyse der BDSL
+order: 6
+---
+
+<div class="row" id="main_row">
+  <div class="col-md-8">
+    <div id="visualization_container" data-path="{{ site.baseurl }}/data"></div>
+  </div>
+  <div class="col-md-4">
+    <div class="row">
+      <h2>Erklärung</h2>
+      <p>
+        <b>Was?</b>  Diese Graphik zeigt die diachronen Verlauf beim Gebrauch einzelner Schlagwörter in der BDSL.
+        Exemplarisch verwendet wurden hierfür häufig gebrauchte Sachschlagwörter aus dem Zeitraum 1985-2020,
+        Personennamen und Werktitel wurden dabei nicht berücksichtigt.
+
+      </p>
+      <p>
+        <b>Wie?</b>  Nutzen Sie die Legende, um bestimmte Schlagwörter anzuzeigen.
+        Die linke Boxspalte repräsentiert die Sichtbarkeit des Schlagwortverlaufs, d.h. die Linie im Diagramm
+        wird bei Ankreuzen angezeigt, die rechte Checkbox hebt die Linie im Diagramm hervor.
+        Die Boxen "Alle" können genutzt werden, um alle Linien auszuwählen bzw. abzuwählen und hervorzuheben.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-4">
+    <div id="stats_container"></div>
+  </div>
+  <div class="col-md-4">
+  </div>
+  <div class="col-md-4">
+    <h2>Legende</h2>
+    <div id="legend_div"></div>
+  </div>
+</div>
+
+<script src="https://d3js.org/d3.v3.js"></script>
+<script src="{{ site.baseurl }}/js/schlagwoerter.js"></script>

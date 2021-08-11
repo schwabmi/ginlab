@@ -1,0 +1,53 @@
+---
+layout: default
+title: Communities
+order: 3
+---
+
+<div class="row">
+
+    <div class="col-md-8">
+        <div id="visualization_container" data-path="{{ site.baseurl }}/data"></div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="row">
+            <h2>Erklärung</h2>
+            <p>
+                <b>Was?</b>  Dieser Graph zeigt die
+                Publikationsbeziehungen zwischen verschiedenen
+                Communities nach Epochenschwerpunkt aus dem Zeitraum 1985-2019.
+                Je größer der
+                Knoten, desto mehr Autor*innen gehören zu dieser
+                Community. Zwei Communities sind verbunden, wenn
+                mindestens ein Paar von Autor*innen aus diesen
+                Communities in einem Sammelband einen Aufsatz
+                publiziert hat. Die Breite der grauen Linien zwischen
+                den Communities gibt an, wie häufig es
+                Ko-Publikationsbeziehungen gibt (umso breiter, umso
+                häufiger). Der Schwellenwert gibt an, ab wievielen
+                Ko-publikationen die Kanten angezeigt werden.
+
+            </p>
+            <p>
+                <b>Wie?</b>  Klicken Sie in der rechten Leiste „Schwellenwert“
+                auf den schwarzen Punkt und ziehen
+                Sie diesen nach oben, um den Schwellenwert zu verändern.
+                Klicken Sie auf die Kreise und ziehen Sie diese
+                auf den von Ihnen gewünschten Ort, um die Graphik
+                nach Ihren Wünschen anzupassen.
+            </p>
+            <p>
+                <a href="https://www.germanistik-im-netz.de/informieren/blog/details/neues-aus-dem-ginlab-ii-netzwerk-graphen-in-der-bdsl/">Mehr Infos zum Tool.</a>
+
+            </p>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- scripts -->
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="{{ site.baseurl }}/js/communities.js"></script>
+<link href="{{ site.baseurl }}/css/com_det.css" rel="stylesheet">

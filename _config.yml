@@ -1,0 +1,9 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/schwabmi/ginlab-demo"
+#baseurl: ""
+title: "GiNLab"
+sass:
+  sass_dir: css
+  style: compressed
+
+exclude: [vendor]

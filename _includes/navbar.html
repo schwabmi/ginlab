@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg navbar-custom">
+  <div class="container">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+
+        {% assign sorted_pages = site.pages | sort:"order" %}
+        {% for node in sorted_pages %}
+        {% if page.url == node.url %}
+        <li class="nav-item active"><a href="{{ site.baseurl }}{{ node.url }}" class="nav-link active">{{node.title}}</a></li>
+        {% else %}
+        <li class="nav-item"><a href="{{ site.baseurl }}{{ node.url }}" class="nav-link">{{node.title}}</a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>

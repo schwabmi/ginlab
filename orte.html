@@ -1,0 +1,60 @@
+---
+layout: default
+title: Entstehungsorte
+longtitle: Entstehungsorte von Hochschulschriften
+order: 4
+---
+
+<div class="row" id="main_row">
+    <div class="col-md-8">
+        <div id="visualization_container" data-path="{{ site.baseurl }}/data"></div>
+    </div>
+    <div class="col-md-4">
+        <div class="row">
+            <h2>Erklärung</h2>
+            <p>
+                <b>Was?</b> Diese Karte zeigt die „universitäre Verortung“ von Hochschulschriften, vornehmlich von
+                Dissertationen und Habilitationen, der deutschen Sprach- und Literaturwissenschaft in Deutschland aus
+                dem Zeitraum 1985-2019, sofern diese publiziert und in der BDSL verzeichnet wurden.
+            </p>
+            <p>
+                <b>Wie?</b> Klicken Sie auf einen der roten Kreise, um mehr
+                Informationen zu erhalten. Mit Klick auf den Kreis werden
+                Ihnen unten die zugehörigen Links zu den Titelnachweisen in der BDSL
+                angezeigt, zu finden unter „Alle
+                Publikationen/Hochschulschriften am ausgewählten Standort“.
+                <br>Per Klick auf eines der TOP 10 Schlagwörter können Sie die
+                Publikationen/Hochschulschriften nach dem jeweiligen
+                Schlagwort an einem Standort eingrenzen.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col">
+        <div id="keyword_div" , style="opacity:0.5"><h3>Standort</h3><b>Top 10 Schlagwörter</b><br></b></div>
+    </div>
+    <div class="col">
+        <div id="keyword_links_container" , style="opacity:0.5"><b>Publikationen/ Hochschulschriften am ausgewählten
+            Standort nach ausgewähltem Schlagwort</b></div>
+    </div>
+    <div class="col">
+        <div id="links_container" , style="opacity:0.5"><b>Alle Publikationen/Hochschulschriften am ausgewählten
+            Standort</b></div>
+    </div>
+</div>
+
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script type="module">
+    import {Runtime, Library, Inspector} from "{{ site.baseurl }}/js/runtime.js";
+    import define from "{{ site.baseurl }}/js/orte.js";
+
+    (new Runtime).module(define, name => {
+        if (name === "State_chart") return Inspector.into(".State_chart")();
+        return ["tooltip"].includes(name) || null;
+    });
+</script>
+
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bubble_map.css">

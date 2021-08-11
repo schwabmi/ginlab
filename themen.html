@@ -1,0 +1,71 @@
+---
+layout: default
+title: Themen
+longtitle: Themen (BDSL-Kategorien)
+order: 2
+---
+
+<div class="row" id="main_row">
+    <div class="col-md-8">
+        <div id="visualization_container" data-path="{{ site.baseurl }}/data"></div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="row">
+            <h2>Erklärung</h2>
+            <p>
+                <b>Was?</b>
+                Dieser Graph beschreibt die zeitliche
+                Entwicklung der Anzahl von Publikationen nach
+                Thema (anhand der BDSL-Kategorien).
+                Das Grobgerüst der 19 BDSL-Kategorien, oder besser gesagt, die BDSL-Systematik stammt noch von den
+                beiden Gründungsherausgebern Hanns W. Eppelsheimer und Clemens Köttelwesch. Die Klassifikationsstellen
+                sind aber keines unveränderlich, sondern wurden in den vergangenen sechs Jahrzehnten immer wieder
+                modifiziert und erweitert, zuletzt 2004. Für nicht wenige kanonische und damit häufig behandelte Werke
+                aus dem Mittelalter lassen sich keine Autor*innen im heutigen Sinne angeben; für diese wurde daher der
+                Werktitel gewählt (z.B. Nibelungenlied, Hildebrandslied). Dass gelegentlich die Kurzformen
+                mittelalterlicher Autoren auftauchen (z.B. Walther, Wolfram) irritiert, diese Uneinheitlichkeit ist
+                leider nicht durchweg konsequenten Erfassungsrichtlinien geschuldet.
+            </p>
+            <p>
+                <b>Wie?</b>
+                Bewegen Sie die Maus über die verschiedenen
+                Farben des Graphen, um Ergebnisse angezeigt zu
+                bekommen. Sobald Sie auf einen Punkt in der
+                Graphik klicken, friert diese ein und Sie erhalten
+                weitere Informationen.
+                <br>
+                Im farbigen Kasten unter der Legende wird die
+                Anzahl aller Publikationen in der ausgewählten
+                Kategorie angezeigt. Im Kasten links unter dem
+                Graphen werden die TOP10 Primärautor*innen der
+                Kategorie angezeigt. Per Klick können Sie
+                zusätzlich eine*n Autor*in auswählen und die
+                Links zu den Titelnachweisen in der BDSL anklicken.
+            </p>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div id="stats_container" , style="opacity:0.5"><h3>Anzahl Publikationen</h3></div>
+    </div>
+    <div class="col-md-4">
+        <div id="url_p" , style="opacity:0.5">
+            <h3>Publikationen der ausgewählten Autor*in</h3>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <h3>Legende</h3>
+        <svg id="legend" width="100%" height="300%"></svg>
+    </div>
+</div>
+
+
+<!-- scripts -->
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="{{ site.baseurl }}/js/themen.js"></script>

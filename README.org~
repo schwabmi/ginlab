@@ -1,0 +1,7 @@
+* A minimal Jekyll template using Bootstrap 4 and Sass. 
+    - based on https://www.danielsieger.com/blog/2019/01/12/creating-jekyll-bootstrap-template.html
+
+* Instructions
+    - clone repo
+    - install jekyll and bootstrap
+    - run `jekyll server` 

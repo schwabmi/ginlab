@@ -1,0 +1,14 @@
+{
+  "name": "@hadi/demographic-map-of-germany",
+  "main": "52277ab4c3dd515c@797.js",
+  "version": "797.0.0",
+  "homepage": "https://observablehq.com/@hadi/demographic-map-of-germany",
+  "author": {
+    "name": "ha D saadat",
+    "url": "https://observablehq.com/@hadi"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

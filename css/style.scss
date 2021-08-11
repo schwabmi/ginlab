@@ -1,0 +1,57 @@
+---
+---
+
+/* modify Bootstrap variables here */
+
+@import "bootstrap/bootstrap";
+ken Sie auf einen der roten Kreise, um mehr Infor
+/* add additional CSS rules below */
+
+/* fix jumping scrollbar */
+html { overflow-y: scroll; }
+
+/*html { margin-left: calc(100vw - 100%); }*/
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  font-family: 'Titillium Web', sans-serif, SemiBold;
+  color: #626e94;
+  font-weight: 400;
+}
+.navbar-custom .navbar-nav .nav-link {
+  font-family: 'Titillium Web', sans-serif, "SemiBold";
+  color: #626e94;
+  font-weight: 400;
+ }
+
+.navbar-nav {
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #CF0133;
+}
+
+.navbar-nav .nav-item .active {
+  background-color: #CF0133;
+  color: #fff;
+}
+
+.navbar {
+    margin-bottom: 1em;
+    border-bottom: 3px solid #CF0133;
+}
+
+.navbar-toggler{
+  border-color: #626e94;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(98,110,148, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+#main_row {
+    margin-bottom: 1em;
+    border-bottom: 3px solid #CF0133;
+}
+
+body{
+  font-family: 'Titillium Web', sans-serif;
+}

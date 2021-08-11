@@ -1,0 +1,82 @@
+---
+layout: default
+title: Autor*innen
+longtitle: Autor*innen
+order: 1
+---
+<div class="row" id="main_row">
+    <div class="col-md-8">
+        <div id="visualization_container" data-path="{{ site.baseurl }}/data"></div>
+
+        <select id="selectbox">
+          <option value="_00">Alle Autor*innen</option>
+          <option value="_co">Co-Autor*innen</option>
+          <option value="_01">Allgemeine deutsche Sprach- und Literaturwissenschaft</option>
+          <option value="_02">Deutsche Sprachwissenschaft</option>
+          <option value="_03">Literaturwissenschaft</option>
+          <option value="_04">Allgemeine Literaturgeschichte</option>
+          <option value="_05">Deutsche Literaturgeschichte</option>
+          <option value="_06">Mittelalter</option>
+          <option value="_07">Frühes Mittelalter (Von den Anfängen bis 1170)</option>
+          <option value="_08">Hochmittelalter</option>
+          <option value="_09">Spätmittelalter und Übergangszeit (14. und 15. Jahrhundert)</option>
+          <option value="_10">16. Jahrhundert</option>
+          <option value="_11">17. Jahrhundert</option>
+          <option value="_12">18. Jahrhundert</option>
+          <option value="_13">Goethezeit</option>
+          <option value="_14">Romantik</option>
+          <option value="_15">19. Jahrhundert</option>
+          <option value="_16">Jahrhundertwende (1880-1914)</option>
+          <option value="_17">20. Jahrhundert (1914-1945)</option>
+          <option value="_18">20. Jahrhundert (1945-1989)</option>
+          <option value="_19">1990 bis zur Gegenwart</option>
+        </select>
+    </div>
+
+    <div class="col-md-4">
+      <h2>Erklärung</h2>
+      <p>
+        <b>Was?</b>  Dieser Graph zeigt die Verteilung von Autor*innen
+        mit als „männlich“ oder „weiblich“ markierten Vornamen in der
+        BDSL. Zur Aufteilung der Namen in männlich und weiblich siehe unten.
+        „Weibliche“ Vornamen sind blau gefärbt (unterhalb der
+        Punkteachse), „männliche“ Vornamen sind orange gefärbt
+        (oberhalb der Punkteachse). Die horizontale Achse ist die
+        Zeitachse (in Jahren), die y-Achse beschreibt die Anzahl an
+        Publikationen.
+      </p>
+      <p>
+        <b>Wie?</b>  Klicken Sie in die Graphik, um ein Jahr
+        auszuwählen uns zusätzliche Informationen zu erhalten.
+        Wählen Sie im Dropdown-Menü unter dem
+        Graph eine Kategorie aus. Wenn Sie die Maus über die Graphik
+        bewegen, erscheinen die Publikationszahlen je Jahr.
+      </p>
+      <p>
+        <b>Anmerkungen</b> Mithilfe des Tools
+        <a href="https://pypi.org/project/gender-guesser/">„gender- guesser“</a>
+        wurden die Vornamen der Autor*innen der BDSL in zwei Kategorien
+        (männlich/weiblich) eingeteilt. Diese Einteilung ist eine rein
+        quantitativ-technische Analyse, an die sich inhaltliche
+        Interpretationen und Erkenntnisse anschließen lassen,
+        um so eine Ausgangsbasis für weiterführende Analysen zu schaffen.
+      </p>
+      <p>
+        <a href="https://www.germanistik-im-netz.de/informieren/blog/details/geschlechterverteilung-bdsl/">Mehr Infos zum Tool und der Einteilung.</a>
+      </p>
+    </div>
+</div>
+
+<div class="row">
+  <div class="col-md-8" >
+    <div id="stats_container" style="opacity:0.5">
+      <h3>Statistiken</h3>
+      </div>
+  </div>
+</div>
+
+
+<!-- scripts -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="{{ site.baseurl }}/js/autorinnen.js"></script>
