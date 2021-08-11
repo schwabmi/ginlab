@@ -1,28 +1,3 @@
-* A minimal Jekyll template using Bootstrap 4 and Sass. 
-    - based on https://www.danielsieger.com/blog/2019/01/12/creating-jekyll-bootstrap-template.html
+* GiNLab 
 
-* Instructions
-    - clone repo
-    - install jekyll and bootstrap
-    - run `jekyll server` 
-    - gem install jekyll bundler
-    - bundle exec jekyll serve
-* todo
-** alle Seiten betreffend
-- Trennlinien zwischen Containern einfügen 
-- ginlab logo einbauen
-** themen
-- legende vollständig sichtbar machen
-- daten updaten (an manchen Stellen tauchen keine Autor*innen auf, siehe "1994, Deutsche Literaturgeschichte" Kann das sein?)
-** autorinnen
-- Achsen anpassen: Minuszeichen an y-Achse löschen
-- nur bis 2020
-** communities
-- force-directed graph skaliert noch nicht bezüglich der Größe des Fensters
-** Publikationsorte
-- muss mal aufgeräumt werden, ist noch von hadis observable notebook in einer unpraktischen struktur
-- Kartengröße anpassen
-** Germanistik-Webseiten
-- aufräumen
-- Crawl verlinken? / zu Michas Homepage Link setzen
-** Schlagwort-Analyse
+The website generation is based on https://www.danielsieger.com/blog/2019/01/12/creating-jekyll-bootstrap-template.html
